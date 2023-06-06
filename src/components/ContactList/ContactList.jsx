@@ -22,7 +22,7 @@ const ContactList = () => {
   const handleDeleteContact = () => {
     dispatch(deleteContact());
   };
-
+  
   return (
     <ul>
       {filterContacts().map(contact => (

@@ -9,6 +9,7 @@ const Filter = () => {
 
   const handleFilterChange = e => {
     dispatch(filterContact(e.target.value));
+    
   };
 
   return (
