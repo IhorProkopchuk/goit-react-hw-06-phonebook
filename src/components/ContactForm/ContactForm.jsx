@@ -19,7 +19,7 @@ const ContactForm = () => {
 
   const handleSubmit = e => {
     e.preventDefault();
-    
+
     const newContact = {
       name,
       number,

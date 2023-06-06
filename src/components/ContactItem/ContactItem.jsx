@@ -14,7 +14,8 @@ const ContactItem = ({ contact }) => {
         <div className={styles.number}>{contact.number}</div>
         <button
           className={styles.btn}
-          onClick={() => dispatch(deleteContact(contact))}>
+          onClick={() => dispatch(deleteContact(contact))}
+        >
           Delete
         </button>
       </li>

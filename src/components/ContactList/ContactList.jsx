@@ -5,7 +5,7 @@ import ContactItem from 'components/ContactItem/ContactItem';
 
 const ContactList = () => {
   const dispatch = useDispatch();
-  
+
   const contacts = useSelector(state => state.contacts);
   const filter = useSelector(state => state.filter);
 
