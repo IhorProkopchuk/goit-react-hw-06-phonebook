@@ -21,12 +21,7 @@ const ContactForm = () => {
   const handleSubmit = event => {
     event.preventDefault();
 
-    const newContact = {
-      name,
-      number,
-    };
-
-    dispatch(addContact(newContact));
+    dispatch(addContact({ name, number }));
     setName('');
     setNumber('');
   };
